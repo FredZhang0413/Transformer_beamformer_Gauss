@@ -418,7 +418,7 @@ if __name__ == "__main__":
     attn_pdrop = 0.05
     resid_pdrop = 0.05
     mlp_ratio = 4
-    ini_sub_dim = 4
+    ini_sub_dim = 2
     max_epoch = (2*num_users*num_tx) // ini_sub_dim
 
     
